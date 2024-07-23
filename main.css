@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./imagens/Site-background-overworld.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+h1, .links a  {
+    font-family: "Bungee", sans-serif;
+}
+
+/* cabeçalho ====================================== */
+
+header img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.grama {
+    background-image: url(./imagens/terra6.png);
+    margin: 0 20px;
+    background-size: cover;
+    padding: 32px 0 20px;
+}
+
+.links li {
+    display: inline;
+    margin: 0 12px;
+}
+
+.links a {
+    text-decoration: none;
+    background: linear-gradient(hsla(129, 35%, 33%, 0.644), hsla(0, 2%, 10%, 0.459));
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* conteudo ====================================== */
+
+.terra {
+    background-color: hsl(17, 22%, 29%);
+    margin: 0 20px;
+    padding: 10px;
+}
+
+h1{
+    display: inline;
+    margin-left: 10px;
+}
+
+.img {
+    background-color: hsl(18, 20%, 24%);
+    margin-top: 10px;
+}
+
+.img img {
+    height: 28px;
+    margin-right: 10px;
+    float: right
+}
+
+.center .img img {
+    height: 24px;
+}
+
+.terra p {
+    margin: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.espaço a {
+    padding: 5px 10px;
+}
+
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabela a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tabela span {
+    margin-left: 6px; 
+}
+
+main {
+    border: 2px solid rgb(61, 41, 41);
+}
+
+.tabela a:hover,
+.links a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*n1234*/
+.n a {
+    padding: 6px 20.1px;
+}
+
+.n1 a {
+    padding: 4.4px 25px;
+}
+
+.n2 a {
+    padding: 5px 150px;
+    justify-content: center;
+}
+
+.n2juntar {
+    display: flex;
+    justify-content: center;
+}
+
+.n2juntar a {
+    padding: 0px;
+}
+
+.n2juntar h4 {
+    margin-top: 4px;
+    padding: 0 2px;
+    color: rgb(255, 255, 255)
+}
+
+.n3 a {
+    padding: 0px 100px;
+    
+}
+
+.nh3 h3 {
+    margin-right: 80px;
+    padding: 5px 0;
+}
+
+.n4 a {
+    padding: 5px 50px;
+}
+/*bemvindo*/
+.bemvindo {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(18, 20%, 24%)
+}
+
+.bemvindo a {
+    padding: 10px 10px;
+}
+
+.bemvindo {
+    border: 2px solid rgba(5, 5, 5, 0.363);
+}
+
+.bemvindo h1 {
+    padding: 50px;
+}
+
+/*rodape*/
+.rodape img {
+    height: 16px;
+}
+
+.rodape a {
+    padding: 0 2px;
+}
+
+.rodape h3 {
+    padding: 0 15px;
+}
+
+.rodape p {
+    font-size: 20px;
+}
+
+.rodape {
+    padding: 10px;
+    border: 2px solid rgba(5, 5, 5, 0.322);
+    background-color: hsl(18, 20%, 24%)
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
